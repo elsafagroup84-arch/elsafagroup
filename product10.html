@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> مليبدنم </title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+  margin:0;
+  font-family:'Cairo',sans-serif;
+  background:#0b0f0c;
+  color:white;
+}
+
+/* Navbar بسيط */
+nav{
+  background:#111;
+  padding:15px 5%;
+}
+
+nav a{
+  color:white;
+  margin-left:20px;
+  text-decoration:none;
+}
+
+nav a:hover{
+  color:#4caf50;
+}
+
+/* الهيدر */
+.product-hero{
+  height:350px;
+  background:url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6") center/cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+}
+
+.product-hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,.6);
+}
+
+.product-hero h1{
+  position:relative;
+  font-size:42px;
+  color:#4caf50;
+}
+
+/* المحتوى */
+.product-details{
+  padding:60px 8%;
+  max-width:1000px;
+  margin:auto;
+}
+
+.product-details h2{
+  color:#4caf50;
+  margin-bottom:20px;
+}
+
+.product-details p{
+  line-height:1.9;
+  color:#ccc;
+  margin-bottom:20px;
+}
+
+.info-box{
+  background:#111;
+  padding:20px;
+  border-radius:15px;
+  border:1px solid rgba(76,175,80,.3);
+  margin-bottom:30px;
+}
+
+.btn-order{
+  display:inline-block;
+  padding:15px 30px;
+  background:#25d366;
+  color:white;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:bold;
+  transition:.3s;
+}
+
+.btn-order:hover{
+  box-shadow:0 0 20px #25d366;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  background:#111;
+  margin-top:50px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">الرئيسية</a>
+  <a href="products.html">المنتجات</a>
+  <a href="consult.html">استشارة</a>
+</nav>
+
+
+
+
+<div class="product-description">
+
+  <h2>عنصر الحديد (Fe)</h2>
+
+  <div class="info-section">
+    <p class="intro">
+      📌 تتراوح نسبته في التربة بين 
+      <strong>200 جزء بالمليون وحتى 10%</strong>.
+    </p>
+  </div>
+
+  <div class="info-section">
+    <h3>🔹 دوره في النبات</h3>
+    <ul>
+      <li>يعمل كعامل مساعد في عملية التنفس، حيث يدخل في العديد من الإنزيمات المسؤولة عن تنفس النبات مثل الكتاليز والسيتوكروم.</li>
+      <li>أساسي في تكوين الكلوروفيل لأنه يدخل في تركيب الإنزيمات المسؤولة عن تكوينه.</li>
+      <li>يدخل في صبغة الليكوبين (اللون الأحمر في الطماطم).</li>
+    </ul>
+  </div>
+
+  <div class="info-section">
+    <h3>🔹 أعراض نقص الحديد</h3>
+    <ul>
+      <li>يظهر النقص على الأوراق العلوية (الحديثة) على شكل اصفرار مع بقاء العروق خضراء، وقد تميل للاحمرار في حالات النقص الشديد.</li>
+      <li>تظهر الأعراض غالبًا في التربة القلوية الكلسية، حيث يضاد الحديد عنصر الكالسيوم.</li>
+      <li>في حالات النقص الشديد تأخذ الأوراق لونًا أبيض مع احتراق الحواف.</li>
+    </ul>
+  </div>
+
+  <div class="info-section">
+    <h3>🔹 أعراض زيادة الحديد</h3>
+    <ul>
+      <li>أوراق خضراء قاتمة.</li>
+      <li>توقف نمو بعض المحاصيل.</li>
+    </ul>
+  </div>
+
+  <div class="info-section">
+    <h3>🔹 المحاصيل الحساسة لنقص الحديد</h3>
+    <ul>
+      <li>الفاصولياء</li>
+      <li>الموالح</li>
+      <li>نباتات الزينة</li>
+      <li>السبانخ</li>
+      <li>الأرز</li>
+    </ul>
+  </div>
+
+  <div class="info-section">
+    <h3>🔹 أعراض سمية الحديد على الأرز</h3>
+    <ul>
+      <li>لون أخضر قاتم ثم احتراق الحواف (وتكون الحالة نادرة).</li>
+    </ul>
+  </div>
+
+  <div class="info-section">
+    <h3>🔹 صور الحديد المستخدمة لعلاج النقص</h3>
+    <ul>
+      <li>الحديد في صورة EDDTA (أفضل في الرش).</li>
+      <li>الحديد في صورة EDDHA (أفضل في الحقن الأرضي).</li>
+    </ul>
+  </div>
+
+  
+
+   <div class="info-section author">
+    <p>
+    اعداد مهندس / <strong>محمد حسن </strong><br>
+      شركة الصفـا للأدوية الزراعية<br>
+      
+    
+
+</div>
+
+</div>
+
+
+ 
+
+
+  
+
+
+  <a href="https://wa.me/201025910607?text=أريد طلب منتج مليبدنم  "
+     target="_blank"
+     class="btn-order">
+     طلب المنتج عبر واتساب
+  </a>
+
+</section>
+
+<footer>
+  © 2026 شركة الصفاء للأدوية الزراعية
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> مليبدنم </title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+  margin:0;
+  font-family:'Cairo',sans-serif;
+  background:#0b0f0c;
+  color:white;
+}
+
+/* Navbar بسيط */
+nav{
+  background:#111;
+  padding:15px 5%;
+}
+
+nav a{
+  color:white;
+  margin-left:20px;
+  text-decoration:none;
+}
+
+nav a:hover{
+  color:#4caf50;
+}
+
+/* الهيدر */
+.product-hero{
+  height:350px;
+  background:url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6") center/cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+}
+
+.product-hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,.6);
+}
+
+.product-hero h1{
+  position:relative;
+  font-size:42px;
+  color:#4caf50;
+}
+
+/* المحتوى */
+.product-details{
+  padding:60px 8%;
+  max-width:1000px;
+  margin:auto;
+}
+
+.product-details h2{
+  color:#4caf50;
+  margin-bottom:20px;
+}
+
+.product-details p{
+  line-height:1.9;
+  color:#ccc;
+  margin-bottom:20px;
+}
+
+.info-box{
+  background:#111;
+  padding:20px;
+  border-radius:15px;
+  border:1px solid rgba(76,175,80,.3);
+  margin-bottom:30px;
+}
+
+.btn-order{
+  display:inline-block;
+  padding:15px 30px;
+  background:#25d366;
+  color:white;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:bold;
+  transition:.3s;
+}
+
+.btn-order:hover{
+  box-shadow:0 0 20px #25d366;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  background:#111;
+  margin-top:50px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">الرئيسية</a>
+  <a href="products.html">المنتجات</a>
+  <a href="consult.html">استشارة</a>
+</nav>
+
+
+
+
+<div class="product-description">
+
+  <h2>عنصر البوتاسيوم (K)</h2>
+
+  <div class="info-section">
+    <h3>🔹 دوره في النبات</h3>
+    <ul>
+      <li>له دور في تنشيط بعض الإنزيمات.</li>
+      <li>يحافظ على الضغط الأسموزي داخل النبات.</li>
+      <li>مسؤول عن انتقال جميع العناصر وحركتها داخل النبات.</li>
+      <li>مسؤول عن نقل الكربوهيدرات المتكونة نتيجة عملية البناء الضوئي.</li>
+      <li>مسؤول عن حركة السكريات من الأوراق إلى أجزاء النبات المختلفة.</li>
+      <li>له دور في مقاومة النبات للأمراض وكذلك مقاومته للحرارة المرتفعة والصقيع.</li>
+      <li>ينشط عنصر الحديد للقيام بوظائفه الحيوية في تكوين الكلوروفيل.</li>
+    </ul>
+  </div>
+
+  <div class="info-section">
+    <h3>🔹 أعراض نقص البوتاسيوم</h3>
+    <ul>
+      <li>تظهر على الأوراق الحديثة على شكل بقع بنية.</li>
+      <li>الأوراق القديمة تصفر حوافها ثم تتحول للون البني ثم تجف وتسقط مبكرًا.</li>
+      <li>ينتقل البوتاسيوم من الأجزاء القديمة إلى الأجزاء الحديثة داخل النبات.</li>
+    </ul>
+  </div>
+
+  <div class="info-section">
+    <h3>🔹 أعراض نقصه على الموالح</h3>
+    <ul>
+      <li>تشقق الثمار.</li>
+      <li>كبر حجم القشرة.</li>
+      <li>تصبح الأكياس العصيرية جافة.</li>
+    </ul>
+  </div>
+
+  <div class="info-section">
+    <h3>🔹 أعراض نقصه على الطماطم</h3>
+    <ul>
+      <li>ظهور نقط بنية.</li>
+      <li>تأخذ الورقة الشكل المغزلي (شبه المركب).</li>
+    </ul>
+  </div>
+
+  <div class="info-section">
+    <h3>🔹 صور البوتاسيوم التجارية</h3>
+    <ul>
+      <li>سيليكات البوتاسيوم.</li>
+      <li>سترات البوتاسيوم.</li>
+      <li>كلوريد البوتاسيوم.</li>
+      <li>ثيوسلفات البوتاسيوم.</li>
+      <li>نترات البوتاسيوم.</li>
+      <li>مونو بوتاسيوم فوسفات (MKP – MPP – KH₂PO₄).</li>
+      <li>داي بوتاسيوم فوسفات (DKP – DPP – K₂HPO₄).</li>
+    </ul>
+  </div>
+
+  
+
+  <div class="info-section author">
+    <p>
+    اعداد مهندس / <strong>محمد حسن </strong><br>
+      شركة الصفـا للأدوية الزراعية<br>
+      
+    
+
+</div>
+
+
+ 
+
+
+  
+
+
+  <a href="https://wa.me/201025910607?text=أريد طلب منتج مليبدنم  "
+     target="_blank"
+     class="btn-order">
+     طلب المنتج عبر واتساب
+  </a>
+
+</section>
+
+<footer>
+  © 2026 شركة الصفاء للأدوية الزراعية
+</footer>
+
+</body>
+</html>
