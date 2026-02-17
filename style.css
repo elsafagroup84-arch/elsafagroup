@@ -1092,3 +1092,25 @@ header nav a:hover {
     text-align: center;
   }
 }
+.engineer-images {
+  display: flex;
+  gap: 15px;
+}
+
+.engineer-img {
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.engineer-images {
+  display: flex;
+  gap: 20px;
+}
+
+.engineer-images img {
+  flex: 1;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+}
